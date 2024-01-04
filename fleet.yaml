@@ -20,7 +20,7 @@ targetCustomizations:
 
 - name: dr
   helm:
-    chart: https://hostname-only-valid-here.example.com/nginx-15.4.4.tgz
+    chart: http://khushal.com/nginx-15.4.4.tgz
   clusterSelector:
     matchLabels:
       example.com: dr
