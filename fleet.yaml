@@ -20,7 +20,7 @@ targetCustomizations:
 
 - name: dr
   helm:
-    chart: http://khushal.com/nginx-15.4.4.tgz
+    chart: http://ec2-65-1-114-173.ap-south-1.compute.amazonaws.com/mysql-9.16.2
   clusterSelector:
     matchLabels:
       example.com: dr
