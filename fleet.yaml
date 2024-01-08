@@ -10,4 +10,10 @@ targetCustomizations:
   clusterSelector:
     matchLabels:
       example.com: prod
+- name: dr
+  helm:
+    chart: http://ec2-13-232-108-191.ap-south-1.compute.amazonaws.com/scribe-0.2.0.tgz
+  clusterSelector:
+    matchLabels:
+      example.com: dr
 
