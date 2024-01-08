@@ -3,9 +3,7 @@ defaultNamespace: default
 
 helm:
   releaseName: web
-
-
-
+targetCustomizations:
 - name: prod
   helm:
     chart: https://charts.bitnami.com/bitnami/nginx-15.4.4.tgz
