@@ -4,13 +4,7 @@ defaultNamespace: default
 helm:
   releaseName: web
 
-targetCustomizations:
-- name: dev
-  helm:
-    chart: http://ec2-13-232-108-191.ap-south-1.compute.amazonaws.com/apache-10.2.4.tgz
-  clusterSelector:
-    matchLabels:
-      example.com: dev
+
 
 - name: prod
   helm:
@@ -19,9 +13,3 @@ targetCustomizations:
     matchLabels:
       example.com: prod
 
-- name: dr
-  helm:
-    chart: http://ec2-13-232-108-191.ap-south-1.compute.amazonaws.com/scribe-0.2.0.tgz
-  clusterSelector:
-    matchLabels:
-      example.com: dr
