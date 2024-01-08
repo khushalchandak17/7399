@@ -20,7 +20,7 @@ targetCustomizations:
 
 - name: dr
   helm:
-    chart: http://ec2-13-232-108-191.ap-south-1.compute.amazonaws.com/version-checker-v0.3.3.tgz
+    chart: http://ec2-13-232-108-191.ap-south-1.compute.amazonaws.com/minio-5.0.14.tgz
   clusterSelector:
     matchLabels:
       example.com: dr
