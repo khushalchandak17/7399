@@ -1,4 +1,5 @@
-namespace: default
+# Default: default
+defaultNamespace: default
 
 helm:
   releaseName: web
